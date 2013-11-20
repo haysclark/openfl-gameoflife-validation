@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="GameOfLifeTests" version="1.0.0" company="" />
+	<app file="GameOfLifeTests" main="TestMain" path="Export" />
+	
+	<source path="Test" />
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+    <haxelib name="mmvc" />
+	<haxelib name="munit" />
+	<haxelib name="mlib" />
+	<haxelib name="hamcrest" />
+	<haxelib name="format" />
+
+	<template path="src/index.html" rename="index.html" if="html5" />
+	
+</project>
